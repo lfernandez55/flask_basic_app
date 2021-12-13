@@ -27,8 +27,8 @@ class ConfigClass(object):
     MAIL_PORT = 465
     MAIL_USE_SSL = True
     MAIL_USE_TLS = False
-    MAIL_USERNAME = 'djangoman34@gmail.com'
-    MAIL_PASSWORD = 'beehive34'
+    MAIL_USERNAME = 'xxxxxxx@gmail.com'
+    MAIL_PASSWORD = 'xxxxxxx'
     MAIL_DEFAULT_SENDER = '"MyApp" <noreply@example.com>'
 
     # Flask-User settings
@@ -169,4 +169,4 @@ def create_app():
 # Start development web server
 if __name__ == '__main__':
     app = create_app()
-    app.run(host='0.0.0.0', port=4000, debug=True)
+    app.run(host='localhost', port=4000, debug=True)
